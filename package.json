@@ -1,10 +1,13 @@
 {
-  "name": "singleton",
+  "name": "patterns_design",
   "version": "1.0.0",
-  "description": "Singleton Pattern",
+  "description": "Patterns Design",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-singleton": "npx jest ./Creational_Design_Patterns/Singleton/src/my-configuration.spec.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./dist/Behavioral_Design_Patterns/index.js",
+    "prestart": "npm install && npm run build"
   },
   "author": "Nicolás Loreto",
   "license": "ISC",

@@ -94,4 +94,4 @@ Si, tras todas las extracciones, el Factory Method base queda vacío, puedes hac
 
 - Puede ser que el código se complique, ya que debes incorporar una multitud de nuevas subclases para implementar el patrón. La situación ideal sería introducir el patrón en una jerarquía existente de clases creadoras.
 
-#### Fuente [https://refactoring.guru/es/design-patterns/singleton] 
+#### Fuente [https://refactoring.guru/es/design-patterns/factory-method] 
